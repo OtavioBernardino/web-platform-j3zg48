@@ -58,9 +58,6 @@ window.onload = function() {
   context.fillStyle = "black";
   context.fillText("FPS:" + fps, 20, 30);
 
-  var img = new Image();
-  img.src = "/img"
-
   context.beginPath();
   context.rect(x, y, 50, 50);
   context.fillStyle = "red";
